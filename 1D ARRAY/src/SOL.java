@@ -1,5 +1,20 @@
 import java.util.*;
 
 public class SOL{
+public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int n = scan.nextInt();          // size of array
+        
+        int[] a = new int[n];
+        
+        for (int i = 0; i < n; i++) {
+            a[i] = scan.nextInt();
+        }
+
+        scan.close();
+        for (int i = 0; i < n; i++) {
+            System.out.println(a[i]);
+        }
+    }
 
 }
