@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 public class Sol {
-    public static void main(String[] args)  {
+    public static void main(String[] args) throws IOException  {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int[][] arr = new int[6][6];
         
@@ -28,3 +28,4 @@ public class Sol {
         System.out.println(max);
     }
 }
+
